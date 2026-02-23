@@ -1,0 +1,36 @@
+.ludo-board{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+.ludo-center{
+  flex-basis: 20%;
+  border: 0.5px solid;  
+  position: relative;
+}
+.triangle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  padding: 8px
+}
+
+.triangle.red {
+  clip-path: polygon(0% 0%, 50% 50%, 0% 100%)
+}
+
+.triangle.green {
+  clip-path: polygon(100% 0%, 50% 50%, 0% 0%);
+} 
+
+
+.triangle.blue {
+  clip-path: polygon(0% 100%, 50% 50%, 100% 100%);
+}
+
+.triangle.yellow {
+  clip-path: polygon(100% 100%, 50% 50%, 100% 0%);
+}

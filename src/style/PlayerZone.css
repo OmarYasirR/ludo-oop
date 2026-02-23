@@ -1,0 +1,29 @@
+.canMove{
+  animation: moveToken 2s steps(4) infinite;
+  cursor: pointer;
+  pointer-events:visible;
+}
+
+@keyframes moveToken {
+  0% {
+    transform: scale(0.6);
+  }
+  25% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+} 
+
+@media (max-width: 717px) {
+    .pwan{
+    font-size: 20px;
+  }
+}

@@ -62,7 +62,6 @@ export class Game {
     if (this.gameState !== "waiting" && this.gameState !== "rolling") return;
     this.gameState = "rolling";
     const diceValue = this.dice.roll();
-    console.log(diceValue)
     // Outting single Token automaticlly
     if (diceValue === 6 && this.currentPlayer.tokensInHome === 4) {
       this.outtingSingleToken();

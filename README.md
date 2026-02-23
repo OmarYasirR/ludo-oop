@@ -145,7 +145,7 @@ The game logic is completely separated from the UI using four main classes:
     
     bash
     
-    git clone https://github.com/yourusername/ludo-oop.git
+    git clone https://github.com/omarYasirR/ludo-oop.git
     cd ludo-oop
     
 2.  Install dependencies:

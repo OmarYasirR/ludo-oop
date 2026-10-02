@@ -1,3 +1,7 @@
+![screenshot](public/favicon.svg)
+
+
+
 # Ludo Game - React with OOP Architecture
 
 A modern, fully functional Ludo board game built with React and TailwindCSS, leveraging Object-Oriented Programming (OOP) principles for clean, maintainable game logic. This project demonstrates how to model complex game rules using classes, encapsulation, and state management without relying on heavy external libraries.
